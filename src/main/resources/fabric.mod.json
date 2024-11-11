@@ -2,15 +2,11 @@
 	"schemaVersion": 1,
 	"id": "modbase",
 	"version": "${version}",
-	"name": "ModBase",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "ModBase - Block",
+	"description": "This mod base adds block examples to the game.",
 	"authors": [
-		"Me!"
+		"UbiquitousNull"
 	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
 	"license": "CC0-1.0",
 	"icon": "assets/modbase/icon.png",
 	"environment": "*",
@@ -39,6 +35,6 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"another-mod": ""
 	}
 }
